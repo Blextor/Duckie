@@ -1,0 +1,5 @@
+automatic.py --> 10k kép (kacsák nélkül)
+hiperopti 10k-val, és megkapjuk a.hdf5-öt
+daggerrel generálunk 1000képet / menetenként és elmentjük és tanítjuk saját gépen
+bobó képei ~10k tanítása felhőben
+-->kész

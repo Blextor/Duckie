@@ -1,0 +1,7 @@
+tensorflow==2.2.1
+numpy
+opencv-python
+scikit-learn
+tqdm
+duckietown-gym-daffy
+keras-tuner
