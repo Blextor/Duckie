@@ -1,13 +1,4 @@
 # DuckieProject - Team Adja
-Kovács Boldizsár GVJY8E
-
-Schneider Marcell DBGYVI
-
-Talpos Norbert Q2H4XB
-
-Virág József Ádám U7KC0P
-
-DEMO: https://youtu.be/8hvmge7oYk4
 
 ## Milestone 1:
 
@@ -56,7 +47,6 @@ https://onedrive.live.com/?authkey=%21AP7HuJgjv7pjAS4&id=7961F412AD7C6165%211597
 A Dagger algorithm has also been implemented. The learner can be found in the DaggerLearner.py file, which contains a wrapper class for our model. The Teacher is implemented in the DaggerTeacher.py file. This implemenation is strongly based on the code that can be found in the automatic.py file, that generates the original data. The dagger implementation can be found in the DAgger.py and this is the file that you have to run in order to start the algorithm. This creates a teacher, a learner, a duckieTown environment and starts the process. The generated images are saved to the "/daggerObservations" directory and this fodler also contains the "labels.txt" that are the labels for the generated images. The structure of this text file is the same as that of the "my_app.txt" file
 
 ## Milestone 3:
-The required software environment can be found here: https://github.com/Marci0707/DuckieProject/blob/main/duckieGym/requirements.txt
 
 The `automatic.py` file is used for generating driving images via an automatic agent.
 More driving data can be produced with using `human.py` by using WASD controls (originally with joystick).
@@ -68,7 +58,7 @@ The optimization of hyperparameters is done in the `hyper_optimization.py`.
 
 Our best performing model can be downloaded from here:
 https://www.mediafire.com/file/h2i7zxxw2n8y5lj/Balra%25C3%2589sJobbraIsKanyarodik.zip/file
-It is strongly advised to multply the predicted velocity and steering by a positive number. We got the best results by multiplying the predicted velocity by 1.6 and multiplying the predicted steering by 10.0 and then use these values when stepping the environment.This is the final form of the model with which we managed to make the DEMO video linked at the start of README.md (https://youtu.be/8hvmge7oYk4)
+It is strongly advised to multply the predicted velocity and steering by a positive number. We got the best results by multiplying the predicted velocity by 1.6 and multiplying the predicted steering by 10.0 and then use these values when stepping the environment.
 # Execution:
 
 Plain model:
